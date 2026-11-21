@@ -273,6 +273,20 @@
     mainNav?.classList.toggle("is-open", !isOpen);
   });
 
+  mainNav?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      menuToggle?.setAttribute("aria-expanded", "false");
+      mainNav.classList.remove("is-open");
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!mainNav?.classList.contains("is-open")) return;
+    if (mainNav.contains(event.target) || menuToggle?.contains(event.target)) return;
+    menuToggle?.setAttribute("aria-expanded", "false");
+    mainNav.classList.remove("is-open");
+  });
+
   document.querySelectorAll("[data-year]").forEach((element) => {
     element.textContent = new Date().getFullYear();
   });
