@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">لذة البروست</title>
+  <circle cx="64" cy="64" r="61" fill="#cd6216"/>
+  <circle cx="64" cy="64" r="54" fill="none" stroke="#fcf0da" stroke-width="2"/>
+  <path d="M43 34c-7-9-2-17 6-11-1-9 8-12 12-2 6-8 14-2 8 7 12-2 14 7 5 12H47z" fill="#fcf0da"/>
+  <path d="M42 48c4-12 14-18 27-17 14 1 24 11 24 24 0 10-6 18-15 22l-1 16H49l-2-15c-11-5-17-15-14-26 1-4 4-7 9-4z" fill="#fcf0da"/>
+  <path d="M83 52c10-4 17-1 20 5l-18 7" fill="#4c4541"/>
+  <circle cx="76" cy="45" r="3.5" fill="#4c4541"/>
+  <path d="M58 57c-4 8-2 15 5 18 7 3 15 0 18-7-8 3-15-1-16-8-2 5-4 7-7 8" fill="#cd6216"/>
+  <path d="M39 62c-10 0-12 7-7 13 4 5 9 4 14 0m39 5c12 0 15 8 9 14-5 5-12 2-14-3" fill="#cd6216"/>
+  <path d="M52 93l-3 8m24-8 3 8m-29 0h9m16 0h9" fill="none" stroke="#4c4541" stroke-linecap="round" stroke-width="4"/>
+</svg>
